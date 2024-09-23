@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#take-picture {
+  width: 100%; /* O botão ocupa 100% da largura disponível */
+  max-width: 600px; /* Largura máxima do botão */
+  margin: 20px 0; /* Margens acima e abaixo do botão */
+  padding: 10px; /* Padding para o botão */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo para o iframe do mapa */
+iframe {
+  width: 100%; /* Para ocupar toda a largura disponível */
+  height: calc(100vh - 100px); /* Altura do mapa para preencher a tela */
+  border: 0; /* Remove a borda */
+}
